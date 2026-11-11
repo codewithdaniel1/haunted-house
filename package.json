@@ -1,0 +1,17 @@
+{
+  "name": "haunted-house",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite rebuild3d --host 0.0.0.0",
+    "build": "vite build rebuild3d",
+    "preview": "vite preview rebuild3d --host 0.0.0.0"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
